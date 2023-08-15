@@ -122,7 +122,7 @@ img a{
 }
 
 .input-box input:focus~label,
-.input-box input:empty~label
+.input-box input:valid~label
 {
     top: -7px;
 }
