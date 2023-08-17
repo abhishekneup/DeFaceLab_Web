@@ -9,7 +9,9 @@ logoImage.addEventListener("click", function() {
     window.location.href = "home.html"; 
 });
 
-
+document.getElementById("btn").addEventListener("click", function() {
+    window.location.href = "upload.html";
+});
 
 
 register.addEventListener('click',()=>{
