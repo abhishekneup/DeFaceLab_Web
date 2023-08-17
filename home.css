@@ -193,7 +193,7 @@ button a{
 }
 .sp
 {
-    background:#ac8e2d;
+    background:rgba(245, 245, 245, 0.908);
     height: 100%;
     width:0;
     border-radius: 13px;
@@ -204,8 +204,14 @@ button a{
     transition: 0.5s;
 }
 
+button:hover
+{
+    color:black;
+}
+
 button:hover span{
     width: 93%;
+    color: black;
 }
 
 button:hover::after {

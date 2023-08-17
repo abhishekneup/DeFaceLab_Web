@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
+    box-sizing: border-box;
 }
 
 
@@ -15,7 +15,9 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:rgb(104, 140, 157);
+    background-color: #688c9d;
+    /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,140,157,1) 35%, rgba(0,212,255,1) 100%); */
     /* background-image: url('images/Pattern\ 02.jpg');
     background-size: cover;
     background-position: center; */
@@ -38,6 +40,8 @@ body
     display: flex;
     justify-content: space-between;
     align-items:center;
+    /* outline: 5px solid red; */
+    border-radius: 10px;
     box-shadow: 0 0 10px rgb(52, 63, 95);
 
     /* height: 50vh; */
@@ -126,7 +130,14 @@ svg
 {
     
     margin-bottom: -6px;
-     
+    border-radius: 15px;
+     /* outline: 1px solid red; */
+     width: 100%;
 }
+.sideimg img
+{   
 
+    border-radius: 15px;
+    width: 100%;
+}
 
